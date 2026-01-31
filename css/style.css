@@ -31,3 +31,16 @@ img {
   font-weight: bold;
   font-size: 18px;
 }
+
+#favorite {
+    color: darkblue;
+}
+
+#places {
+    color: darkgreen;
+}
+
+#royal {
+    color: maroon;
+}
+
