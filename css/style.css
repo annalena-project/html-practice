@@ -26,3 +26,8 @@ img {
 .flag {
     width: 250px;
 }
+
+.intro {
+  font-weight: bold;
+  font-size: 18px;
+}
