@@ -22,3 +22,7 @@ img {
   display: block;
   margin: auto;
 }
+
+.flag {
+    width: 300px;
+}
