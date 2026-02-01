@@ -9,11 +9,14 @@
 </head>
 
 <body>
-<!-- Page title -->    
-<h1> My Favorite City: Stockholm</h1>
+<!-- Page title -->  
+<header>
+<h1>My Favorite City: Stockholm</h1>
+</header>
 
-<!-- Main image, stored in folder: images  -->
+<!-- Main image -->
 <img src="images/stockholm2.jpg" alt="View of Stockholm city" width="500">
+
 
 <!-- Introduction text -->
 <p class="intro"> On this page I share information about my favorite city in Sweden.</p>
@@ -37,21 +40,29 @@ I especially enjoy visiting museums and learning more about Swedish history and 
 Because of all these things, Stockholm will always have a special place in my heart.
 </p>
 
-<h2 id="favorite">Favorite City</h2>
+<div id="city_info_wrapper">
 
-<!-- Link to Stockholm page -->
-<ul>
-    <li><a href="page2.html">Stockholm</a></li>
-</ul>
+  <div class="city_box">
+    <h2 id="favorite">Favorite City</h2>
 
-<!-- A list of Places to visit -->
-<h2 id="places">Best Places to Visit:</h2>
+    <!-- Link to Stockholm page -->
+    <ul>
+      <li><a href="page2.html">Stockholm</a></li>
+    </ul>
+  </div>
 
-<ol>
-  <li>Old Town: Gamla Stan</li>
-  <li>Royal Palace</li>
-  <li>Vasa Museum</li>
-</ol>
+  <div class="city_box">
+    <!-- A list of Places to visit -->
+    <h2 id="places">Best Places to Visit:</h2>
+
+    <ol>
+      <li>Old Town: Gamla Stan</li>
+      <li>Royal Palace</li>
+      <li>Vasa Museum</li>
+    </ol>
+  </div>
+
+</div>
 
 <!-- An image of teh Swedish flag, stored in folder: images  -->
 <img src="images/sweflaf.png" alt="Swedish flag" width="200" class="flag">

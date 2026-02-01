@@ -23,10 +23,6 @@ img {
   margin: auto;
 }
 
-.flag {
-    width: 250px;
-}
-
 .intro {
   font-weight: bold;
   font-size: 18px;
@@ -48,4 +44,40 @@ img {
 
 .text {
     line-height: 1.6;
+}
+
+/* Flexbox for city info section */
+#city_info_wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 40px auto;
+}
+
+/* Style each city box */
+.city_box {
+  background-color: blanchedalmond;  
+  text-align: center;
+  width: 250px;
+}
+
+/* Center flag under the boxes */
+.flag {
+  width: 250px;  
+  display: block;
+  margin: 40px auto;
+}
+
+/* Make list look cleaner */
+.city_box ol {
+  padding-left: 45px;
+  text-align: left;
+}
+
+.city_box li {
+  margin-bottom: 6px;
+}
+
+h2 {
+  color: maroon;  
 }
