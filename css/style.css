@@ -90,6 +90,10 @@ h2 {
   margin-bottom: 15px;  
 }
 
+.page-title {
+  color: maroon;
+}
+
 /*
 @media (max-width: 600px) {
   .flex-container {
